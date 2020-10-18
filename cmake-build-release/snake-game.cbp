@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="snake-game"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snake-game">
+				<Option output="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/snake-game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Alexandra/source/repos/snake-game/include"/>
+					<Add directory="C:/Users/Alexandra/source/repos/snake-game/lib/BearLibTerminal/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 snake-game"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snake-game/fast">
+				<Option output="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/snake-game.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Alexandra/source/repos/snake-game/include"/>
+					<Add directory="C:/Users/Alexandra/source/repos/snake-game/lib/BearLibTerminal/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 snake-game/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Alexandra/source/repos/snake-game/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/source/repos/snake-game/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/collider_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/movement_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/player_control_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/previous_transform_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/tail_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/texture_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/components/transform_component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/controls.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/game_statistics.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/lib/ecs/component.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/lib/ecs/engine.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/lib/ecs/entity.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/lib/ecs/entity_manager.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/lib/ecs/system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/lib/ecs/system_manager.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/scenes/context.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/scenes/game_over_scene.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/scenes/game_scene.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/scenes/i_scene.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/scenes/scene_manager.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/scenes/title_scene.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/collision_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/fruit_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/game_over_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/game_statistics_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/movement_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/player_control_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/rendering_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/include/systems/tail_system.h">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/main.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/scenes/game_over_scene.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/scenes/game_scene.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/scenes/scene_manager.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/scenes/title_scene.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/collision_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/fruit_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/game_over_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/game_statistics_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/movement_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/player_control_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/rendering_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/src/systems/tail_system.cpp">
+			<Option target="snake-game"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/source/repos/snake-game/CMake/FindBearLibTerminal.cmake">
+			<Option virtualFolder="CMake Files\CMake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
