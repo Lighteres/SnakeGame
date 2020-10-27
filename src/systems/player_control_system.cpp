@@ -27,25 +27,25 @@ void PlayerControlSystem::OnUpdateEntity(Entity *entity, GameStatistics *gs) con
   auto mc = entity->Get<MovementComponent>();
   auto pcc = entity->Get<PlayerControlComponent>();
 
-  if (controls_.IsPressed(pcc->up_button_)) {
+  if ((controls_.IsPressed(pcc->up_button_)) && !(mc->down_)) {
     mc->right_ = false;
     mc->left_ = false;
     mc->down_ = false;
     mc->up_ = true;
   }
-  if (controls_.IsPressed(pcc->right_button_)) {
+  if ((controls_.IsPressed(pcc->right_button_)) && !(mc->left_)) {
     mc->up_ = false;
     mc->left_ = false;
     mc->down_ = false;
     mc->right_ = true;
   }
-  if (controls_.IsPressed(pcc->left_button_)) {
+  if ((controls_.IsPressed(pcc->left_button_)) && !(mc->right_)) {
     mc->up_ = false;
     mc->right_ = false;
     mc->down_ = false;
     mc->left_ = true;
   }
-  if (controls_.IsPressed(pcc->down_button_)) {
+  if ((controls_.IsPressed(pcc->down_button_)) && !(mc->up_)) {
     mc->up_ = false;
     mc->right_ = false;
     mc->left_ = false;

@@ -21,6 +21,7 @@ void FruitSystem::OnUpdate() {
       x = mersenne() % (gs_->n_ - 3) + 1;
       y = mersenne() % 9 + 1;
     } else {
+      int check = 0;
       while (true) {
         x = mersenne() % (gs_->n_ - 3) + 1;
         y = mersenne() % (gs_->m_ - 3) + 1;
@@ -28,10 +29,16 @@ void FruitSystem::OnUpdate() {
           auto tail = gs_->tails[i];
           auto tc = tail->Get<TransformComponent>();
           if ((tc->pos_x == x) && (tc->pos_y == y)) {
-            continue;
+            check = 1;
+            break;
           }
         }
-        break;
+        if (check == 1) {
+          check = 0;
+          continue;
+        } else {
+          break;
+        }
       }
     }
     fruit->Add<TransformComponent>(x, y);
